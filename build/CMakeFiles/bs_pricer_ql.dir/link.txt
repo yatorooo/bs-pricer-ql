@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/bs_pricer_ql.dir/src/main.cpp.o CMakeFiles/bs_pricer_ql.dir/src/csv.cpp.o CMakeFiles/bs_pricer_ql.dir/src/pricer.cpp.o -o bs_pricer_ql  /opt/homebrew/lib/libQuantLib.dylib
