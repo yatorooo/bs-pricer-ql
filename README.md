@@ -19,6 +19,7 @@ An end-to-end mini project:
 ---
 
 ## Project Structure
+```text
 .
 ├─ data/
 │ ├─ option_chain_sample.csv # sample input
