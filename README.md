@@ -40,3 +40,7 @@ An end-to-end mini project:
 ```bash
 ./bs_pricer_ql --chain ../data/option_chain_sample_yfinance.csv --out results.csv
 ```
+
+## Acknowledgments
+- [QuantLib](https://www.quantlib.org/)  
+- [yfinance](https://github.com/ranaroussi/yfinance)
