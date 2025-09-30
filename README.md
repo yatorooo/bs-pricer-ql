@@ -35,6 +35,24 @@ An end-to-end mini project:
 └─ README.md
 ```
 ---
+## CSV Schema
+
+**Input CSV** (`--chain`):
+```text
+trade_date,underlying,spot,r,q,option_type,maturity_date,strike,vol
+```
+- `trade_date`: ISO date (e.g. 2025-09-29)
+- `underlying`: ticker symbol (e.g. AAPL)
+- `spot`: spot price of underlying
+- `r`: risk-free rate (annualized, continuously compounded)
+- `q`: dividend yield (annualized, continuously compounded)
+- `option_type`: `C` (call) or `P` (put)
+- `maturity_date`: ISO date for option maturity
+- `strike`: strike price
+- `vol`: volatility (optional; if missing, use default or estimated value)
+
+---
+
 ## Execute Example
 
 ```bash
