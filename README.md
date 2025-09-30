@@ -33,3 +33,8 @@ An end-to-end mini project:
 │ └─ main.cpp # CLI entry point
 ├─ CMakeLists.txt
 └─ README.md
+
+## Execute Example
+
+```bash
+./bs_pricer_ql --chain ../data/option_chain_sample_yfinance.csv --out results.csv
