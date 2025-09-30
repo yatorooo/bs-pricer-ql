@@ -19,3 +19,17 @@ An end-to-end mini project:
 ---
 
 ## Project Structure
+.
+├─ data/
+│ ├─ option_chain_sample.csv # sample input
+│ └─ priced_sample.csv # sample output
+├─ scripts/
+│ └─ fetch_chain.py # fetch option chain using yfinance
+├─ include/
+│ ├─ csv.hpp
+│ └─ pricer.hpp
+├─ src/
+│ ├─ pricer.cpp # pricing implementation
+│ └─ main.cpp # CLI entry point
+├─ CMakeLists.txt
+└─ README.md
