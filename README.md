@@ -51,6 +51,11 @@ trade_date,underlying,spot,r,q,option_type,maturity_date,strike,vol
 - `strike`: strike price
 - `vol`: volatility (optional; if missing, use default or estimated value)
 
+**Output CSV** (`--out`):
+```text
+trade_date,underlying,spot,r,q,option_type,maturity_date,strike,vol,price,delta,gamma,vega,theta,rho
+```
+
 ---
 
 ## Execute Example
