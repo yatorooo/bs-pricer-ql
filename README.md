@@ -24,12 +24,11 @@ An end-to-end mini project:
 ├─ data/
 │ ├─ option_chain_sample.csv # sample input
 │ └─ priced_sample.csv # sample output
-├─ scripts/
-│ └─ fetch_chain.py # fetch option chain using yfinance
-├─ include/
-│ ├─ csv.hpp
-│ └─ pricer.hpp
+├─ fetch_chain.py # fetch option chain using yfinance
 ├─ src/
+│ ├─ csv.hpp
+│ ├─ csv.cpp # data read
+│ ├─ pricer.hpp
 │ ├─ pricer.cpp # pricing implementation
 │ └─ main.cpp # CLI entry point
 ├─ CMakeLists.txt
