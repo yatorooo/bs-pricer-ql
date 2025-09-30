@@ -23,7 +23,7 @@ An end-to-end mini project:
 .
 ├─ data/
 │ ├─ option_chain_sample.csv # sample input
-│ └─ priced_sample.csv # sample output
+│ └─ result.csv # sample output
 ├─ fetch_option_chain.py # fetch option chain using yfinance
 ├─ src/
 │ ├─ csv.hpp
