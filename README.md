@@ -5,7 +5,7 @@ An end-to-end mini project:
 - Use **C++/QuantLib** to price options under the **Black-Scholes model**  
 - Export results to CSV for further analysis or visualization  
 
-> This project is intended as a reproducible demo for interviews and portfolio showcase: data acquisition → pricing model → result export.
+> This project is intended as a reproducible demo for portfolio showcase: data acquisition → pricing model → result export.
 
 ---
 
